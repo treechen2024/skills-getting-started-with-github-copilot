@@ -1,2 +1,5 @@
-fastapi
+flask
+google-generativeai
+python-dotenv
+gunicorn
 uvicorn
