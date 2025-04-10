@@ -1,60 +1,33 @@
-# Getting Started with GitHub Copilot
+# Gemini AI 應用程式
 
-![](https://github.com/treechen2024/skills-getting-started-with-github-copilot/actions/workflows/1-preparing.yml/badge.svg)
-![](https://github.com/treechen2024/skills-getting-started-with-github-copilot/actions/workflows/2-first-introduction.yml/badge.svg)
-![](https://github.com/treechen2024/skills-getting-started-with-github-copilot/actions/workflows/3-copilot-edits.yml/badge.svg)
-![](https://github.com/treechen2024/skills-getting-started-with-github-copilot/actions/workflows/4-copilot-on-github.yml/badge.svg)
+這是一個使用 Google Gemini AI 開發的應用程式集合，包含文字生成和圖像生成功能。
 
-_Get started using GitHub Copilot in less than an hour._
+## 功能特點
 
-## Welcome
+### 文字生成器 Web 應用
+- 使用 Gemini-1.5-Pro 模型
+- 支援中文輸入和生成
+- 可儲存生成結果為 TXT 文件
+- 支援複製貼上功能
+- 簡潔的使用者介面
 
-- **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
-- **What you'll learn**: The different ways to interact with Copilot to explain, write, debug, and develop code.
-- **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
-- **Prerequisites**:
-  - Skills exercise: [Introduction to GitHub](https://github.com/skills/introduction-to-github)
-  - Familiarity with [VS Code](https://code.visualstudio.com/)
-  - Basic coding principles
-- **How long**: This exercise takes less than one hour to complete.
+### 圖像生成器
+- 使用 Gemini-1.5-Pro 模型
+- 支援自然語言描述生成圖像
+- 自動儲存生成的圖像
+- 支援即時圖像預覽
 
-In this exercise, you will:
+## 安裝需求
 
-1. Use a preconfigured Codespace to run VS Code in your browser.
-1. Learn different interaction options to develop with GitHub Copilot.
-1. Use Copilot to summarize and review your pull request.
+- Python 3.8 或更高版本
+- Flask
+- google-generativeai
+- python-dotenv
+- Pillow (用於圖像處理)
 
-### How to start this exercise
+## 安裝步驟
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
-
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
-
-2. In the new tab, most of the fields will automatically fill in for you.
-
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.chttps://github.com/treechen2024/skills-getting-started-with-github-copilot/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise" href="https://github.com/treechen2024/skills-getting-started-with-github-copilot/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
-
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/getting-started-with-github-copilot) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+1. 克隆專案：
+```bash
+git clone [您的專案URL]
+cd [專案目錄]
